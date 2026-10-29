@@ -1,12 +1,13 @@
 
 # ?	Count the digits of a number and find the sum of its digits.
 ##* beginner friendly code and the logic to understand how this kind of question is being solved
+'''
 number = int(input("Enter a number: "))
 unit = number % 10
 ten = (number // 10) % 10
 hundred = (number // 100)
 sum_of_digits = unit + ten + hundred
-print("The sum of the digits is:", sum_of_digits)
+'''
 
 ##! -----------------------------------------------------------------------
 ##* now the actual code using the loop for this question....
